@@ -58,6 +58,7 @@ export default function Projects() {
       linkText: t('projects_visit'),
       icon: ExternalLink,
       isActive: true,
+      hasModal: false,
     },
     {
       title: t('project2_title'),
@@ -67,6 +68,7 @@ export default function Projects() {
       linkText: t('projects_open_app'),
       icon: Github,
       isActive: true,
+      hasModal: false,
     },
     {
       title: t('project3_title'),
@@ -76,13 +78,14 @@ export default function Projects() {
       linkText: t('projects_visit'),
       icon: ExternalLink,
       isActive: true,
+      hasModal: false,
     },
     {
       title: t('project4_title'),
       subtitle: t('project4_subtitle'),
       description: t('project4_desc'),
       link: null,
-      linkText: t('projects_open_streamlit'),
+      linkText: 'Buka Pilihan',
       icon: ExternalLink,
       isActive: true,
       hasModal: true,
@@ -95,6 +98,7 @@ export default function Projects() {
       linkText: t('projects_docs_only'),
       icon: FileText,
       isActive: false,
+      hasModal: false,
     },
   ];
 
