@@ -46,20 +46,16 @@ export default function Hero() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <div className="flex justify-center animate-fade-in">
-              <div className={`w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-2xl border-4 ${
+              <div className={`w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden shadow-2xl border-4 ${
                 theme === 'minimalist' ? 'border-gray-200' :
                 theme === 'dark' ? 'border-gray-700' :
                 'border-pink-200'
               }`}>
-                <div className={`w-full h-full flex items-center justify-center ${
-                  theme === 'minimalist' ? 'bg-gray-100' :
-                  theme === 'dark' ? 'bg-gray-800' :
-                  'bg-gradient-to-br from-pink-100 to-blue-100'
-                }`}>
-                  <span className={`text-center ${styles.text} text-lg font-semibold`}>
-                    Tambahkan Foto Anda Di Sini
-                  </span>
-                </div>
+                <img
+                  src="/src/assets/Foto Unformal - M Akbar Rizky S.jpg"
+                  alt="Muhamad Akbar Rizky Saputra"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
