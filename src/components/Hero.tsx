@@ -52,7 +52,7 @@ export default function Hero() {
                 'border-pink-200'
               }`}>
                 <img
-                  src="/src/assets/Foto Unformal - M Akbar Rizky S.png"
+                  src="/src/assets/Foto Unformal - M Akbar Rizky S.jpg"
                   alt="Muhamad Akbar Rizky Saputra"
                   className="w-full h-full object-cover"
                 />
